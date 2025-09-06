@@ -1,0 +1,34 @@
+# Telegram Bot Dependencies
+python-telegram-bot==22.3
+
+# HTTP Requests
+requests>=2.31.0
+
+# Environment Variables
+python-dotenv>=1.0.0
+
+# Timezone support for APScheduler
+pytz>=2023.3
+
+# Type support for Python 3.13+
+typing-extensions>=4.0.0
+
+# Official Mistral AI Client (with beta features support)
+mistralai>=1.0.0
+
+# Database Dependencies (for future PostgreSQL migration)
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.0
+
+# Note: The following are built-in Python modules and don't need installation:
+# - sqlite3 (built-in)
+# - asyncio (built-in)
+# - logging (built-in)
+# - dataclasses (built-in)
+# - typing (built-in)
+# - datetime (built-in)
+# - json (built-in)
+# - io (built-in)
+# - csv (built-in)
+# - os (built-in)
+# - time (built-in)
